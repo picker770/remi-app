@@ -24,7 +24,7 @@ def twaManifest = [
     applicationId: 'io.github.picker770.twa',
     hostName: 'picker770.github.io', // The domain being opened in the TWA.
     launchUrl: '/remi-app/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Remi', // The application name.
+    name: 'Remi - Your Daily Reminder & Memory Helper', // The application name.
     launcherName: 'Remi', // The name shown on the Android Launcher.
     themeColor: '#6366F1', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.

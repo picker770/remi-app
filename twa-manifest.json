@@ -1,7 +1,7 @@
 {
   "packageId": "io.github.picker770.twa",
   "host": "picker770.github.io",
-  "name": "Remi",
+  "name": "Remi - Your Daily Reminder & Memory Helper",
   "launcherName": "Remi",
   "display": "standalone",
   "themeColor": "#6366F1",
@@ -13,7 +13,7 @@
   "backgroundColor": "#FFFFFF",
   "enableNotifications": true,
   "startUrl": "/remi-app/",
-  "iconUrl": "https://picker770.github.io/remi-app/icon-512.png",
+  "iconUrl": "https://picker770.github.io/remi-app/favicon/icon-512.png",
   "maskableIconUrl": "https://picker770.github.io/remi-app/icon-512-maskable.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
