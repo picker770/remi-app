@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern task manager application to organize and track your daily tasks">
+    <title>Task Manager - Organize Your Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#6366f1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Remi">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <main class="container">
+        <header class="app-header">
+            <h1>Remi</h1>
+            <p class="subtitle">Your Daily Reminder, and Memory Helper</p>
+        </header>
+
+        <section class="task-input-section" aria-labelledby="add-task-label">
+            <h2 id="add-task-label" class="sr-only">Add a New Task</h2>
+            <form id="taskForm" class="task-form" novalidate>
+                <div class="form-group">
+                    <label for="taskDay">Select Day:</label>
+                    <select id="taskDay" required>
+                        <option value="">-- Choose a day --</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                    </select>
+
+                    <input 
+                        type="text" 
+                        id="taskName" 
+                        placeholder="Task name (e.g., Buy Groceries)"
+                        required
+                    >
+                    <textarea 
+                        id="taskDescription" 
+                        placeholder="Description (optional)"
+                        rows="2"
+                    ></textarea>
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary"
+                        aria-label="Add task"
+                    >
+                        Add Task
+                    </button>
+                </div>
+                <span id="errorMessage" class="error-message" role="alert" aria-live="polite"></span>
+            </form>
+        </section>
+
+        <section class="tasks-section" aria-labelledby="tasks-list-heading">
+            <div class="tasks-header">
+                <h2 id="tasks-list-heading">My Tasks</h2>
+                <div class="task-stats">
+                    <span class="stat">
+                        <span class="stat-label">Total:</span>
+                        <span id="totalTasks" class="stat-value">0</span>
+                    </span>
+                    <span class="stat">
+                        <span class="stat-label">Completed:</span>
+                        <span id="completedTasks" class="stat-value">0</span>
+                    </span>
+                </div>
+            </div>
+
+            <div id="tasksContainer" class="tasks-container" role="region" aria-label="Task list">
+                <div class="empty-state">
+                    <p>No tasks yet. Add one to get started!</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="app-footer">
+            <p>&copy; 2026 Remi. RajsWebDesign.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
