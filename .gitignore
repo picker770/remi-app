@@ -1,0 +1,14 @@
+# Signing key - NEVER commit this!
+android.keystore
+key.properties
+
+# Android build
+app/
+*.apk
+*.aab
+.gradle/
+
+# Other files
+node_modules/
+.DS_Store
+*.log
