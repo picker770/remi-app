@@ -2,8 +2,8 @@
   "name": "Remi - Your Daily Reminder & Memory Helper",
   "short_name": "Remi",
   "description": "Organize your daily tasks by day of the week with Remi",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/remi-app/",
+  "scope": "/remi-app/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
@@ -11,13 +11,13 @@
   "categories": ["productivity"],
   "screenshots": [
     {
-      "src": "icon-192.png",
+      "src": "favicon/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
-      "src": "icon-512.png",
+      "src": "favicon/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow"
@@ -35,18 +35,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "icon-192-maskable.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icon-512-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ],
   "shortcuts": [
@@ -54,10 +42,10 @@
       "name": "Add Task",
       "short_name": "New Task",
       "description": "Quickly add a new task",
-      "url": "/",
+      "url": "/remi-app/",
       "icons": [
         {
-          "src": "icon-192.png",
+          "src": "favicon/icon-192.png",
           "sizes": "192x192"
         }
       ]
