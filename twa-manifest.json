@@ -14,7 +14,6 @@
   "enableNotifications": true,
   "startUrl": "/remi-app/",
   "iconUrl": "https://picker770.github.io/remi-app/favicon/icon-512.png",
-  "maskableIconUrl": "https://picker770.github.io/remi-app/icon-512-maskable.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "C:\\Users\\ATEEQ\\OneDrive\\Documents\\gihub-copilet-chat-projects\\remi-app\\android.keystore",
@@ -26,8 +25,8 @@
     {
       "name": "Add Task",
       "shortName": "New Task",
-      "url": "https://picker770.github.io/",
-      "chosenIconUrl": "https://picker770.github.io/remi-app/icon-192.png"
+      "url": "https://picker770.github.io/remi-app/",
+      "chosenIconUrl": "https://picker770.github.io/remi-app/favicon/icon-192.png"
     }
   ],
   "generatorApp": "bubblewrap-cli",
@@ -40,7 +39,7 @@
   "enableSiteSettingsShortcut": true,
   "isChromeOSOnly": false,
   "isMetaQuest": false,
-  "fullScopeUrl": "https://picker770.github.io/",
+  "fullScopeUrl": "https://picker770.github.io/remi-app/",
   "minSdkVersion": 21,
   "orientation": "portrait-primary",
   "fingerprints": [],

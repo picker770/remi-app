@@ -39,7 +39,7 @@ def twaManifest = [
     // - short_name: Shorter string used if |name| is too long.
     // - url: Absolute path of the URL to launch the app with (e.g '/create').
     // - icon: Name of the resource in the drawable folder to use as an icon.
-    shortcuts: [[name:'Add Task', short_name:'New Task', url:'https://picker770.github.io/', icon:'shortcut_0']],
+    shortcuts: [[name:'Add Task', short_name:'New Task', url:'https://picker770.github.io/remi-app/', icon:'shortcut_0']],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
     splashScreenFadeOutDuration: 300,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
@@ -81,7 +81,7 @@ android {
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'https://picker770.github.io/'
+            resValue "string", "fullScopeUrl", 'https://picker770.github.io/remi-app/'
         
 
         
