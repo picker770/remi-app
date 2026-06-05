@@ -1,6 +1,11 @@
 # Remi - Modern Web Application
 
-A beautiful, responsive task management application with a focus on user experience and accessibility. Built as a Progressive Web App (PWA) with offline support.
+# Remi
+
+Remi is a simple and accessible daily task management app designed to help users stay organised and maintain their routines. It is especially useful for individuals experiencing memory challenges, including those living with dementia, by providing a clear and easy way to track daily activities, reminders, and important tasks.
+
+The app focuses on simplicity, ease of use, and accessibility, making it suitable for people of all ages who want support managing their day-to-day responsibilities. Whether you're planning your daily routine, keeping track of important tasks, or helping a loved one maintain independence, Remi provides a straightforward solution for staying organised.
+
 
 ## 📋 Table of Contents
 
